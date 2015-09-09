@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.ico">
+
+    <title>芝加哥</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/isotope.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- Navigation -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden-sm">
+            <a href="index.html">主页</a>
+          </li>
+          <li class="hidden-sm">
+            <a href="car_team.html">我们的车队</a>
+          </li>
+          <li class="hidden-sm">
+            <a href="chicago_view.html">最美芝加哥</a>
+          </li>
+          <li class="hidden-sm">
+            <a href="services.html">服务项目</a>
+          </li>
+          <li class="hidden-sm">
+            <a href="about-us.html">关于我们</a>
+          </li>
+
+            <!-- Navbar Search -->
+            <li class="hidden-xs" id="navbar-search">
+              <a href="#">
+                <i class="fa fa-search"></i>
+              </a>
+              <div class="hidden" id="navbar-search-box">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- Mobile Search -->
+          <form class="navbar-form navbar-right visible-xs" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-danger" type="button">Search!</button>
+              </span>
+            </div>
+          </form>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> <!-- / .navigation -->
+	<span id="header_shadow" style="width: 100%; top: 30px;"></span>
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Topic Header -->
+      <div class="topic">
+        <div class="container">
+          <div class="row">            
+            <ol class="breadcrumb hidden-xs">
+              <li><a href="index.html">主页</a></li>
+              <li class="active">车队</li>
+            </ol>                      
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Topic Header -->
+
+      <div class="container">
+		<div class="row">          
+			<!-- Categories -->             
+			<ul class="project-filter" id="filters">
+				<li><a href="#" data-filter="*">全部</a></li>
+				<li><a href="#" data-filter=".benchi">奔驰</a></li>
+				<li><a href="#" data-filter=".yingfei">英菲尼迪</a></li>
+				<li><a href="#" data-filter=".woerwo">沃尔沃</a></li>
+				<li><a href="#" data-filter=".fengtian">丰田</a></li>
+			</ul>
+
+		</div> <!-- / .row -->
+	  </div> <!-- / .container -->
+	  <div class="container">
+          <div class="row" id="isotope-container">
+              <div class="col-md-3 isotope-item benchi">
+                <div class="portfolio-item">
+                  <div class="portfolio-thumbnail">
+                    <img class="img-responsive" src="img/car/benchi.png" alt="...">
+                    <div class="mask">
+                      <p>
+                        <a href="img/car/benchi.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div> <!-- / .portfolio-item -->
+              </div>
+
+            <div class="col-md-3 isotope-item benchi">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/benchi1.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/benchi1.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item benchi">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/benchi2.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/benchi2.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item benchi">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/benchi4.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/benchi4.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item benchi">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/benchi5.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/benchi5.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item benchi">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/benchi8.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/benchi8.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+
+
+            <div class="col-md-3 isotope-item yingfei">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/yingfei.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/yingfei.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item yingfei">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/yingfei1.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/yingfei1.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item yingfei">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/yingfei2.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/yingfei2.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+
+            <div class="col-md-3 isotope-item fengtian">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/fengtian.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/fengtian.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item fengtian">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/fengtian4.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/fengtian4.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item fengtian">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/fengtian5.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/fengtian5.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+            <div class="col-md-3 isotope-item fengtian">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/fengtian7.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/fengtian7.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item woerwo">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/woerwo.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/woerwo.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item woerwo">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/woerwo1.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/woerwo1.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+
+            <div class="col-md-3 isotope-item woerwo">
+              <div class="portfolio-item">
+                <div class="portfolio-thumbnail">
+                  <img class="img-responsive" src="img/car/woerwo3.png" alt="...">
+                  <div class="mask">
+                    <p>
+                      <a href="img/car/woerwo3.png"  data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- / .portfolio-item -->
+            </div>
+             <!-- <div class="col-md-3 isotope-item webdesign">
+                <div class="portfolio-item">
+                  <div class="portfolio-thumbnail">
+                    <img class="img-responsive" src="img/portfolio/portfolio8.jpg" alt="...">
+                    <div class="mask">
+                      <p>
+                        <a href="img/portfolio/portfolio8.jpg" data-lightbox="template_showcase"><i class="fa fa-search fa-2x"></i></a>
+                        <a href="portfolio-item-8.html"><i class="fa fa-link fa-2x"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div> <!-- / .portfolio-item -->
+              <!--</div>-->
+          </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div> <!-- / .wrapper -->
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <!-- Contact Us -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>联系我们</h4>
+            <p>
+              630 West Webster Ave<br />
+              Chicago, IL United States.
+              <br />
+              电话 :+1 312-486-0858<br />
+              Fax  : 92 026 365 2570
+              <br />
+              <a href="mailto:402540201@qq.com">402540201@qq.com</a>
+            </p>
+          </div><!-- / .Contact Us -->
+
+          <!-- Useful Links -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>友情链接</h4>
+            <p>
+              <a href="#">购买美国电话卡 </a><br />
+              <a href="#">飞机航班查询 </a><br />
+              <a href="#">芝加哥景区</a><br />
+              <a href="#">芝加哥周边风景</a><br />
+              <a href="#">二手车 </a><br />
+              <a href="#"> </a><br />
+            </p>
+          </div><!-- / .Useful Links -->
+
+          <!-- Recent Tweets -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>Photo Stream</h4>
+            <div class="gallery clearfix">
+              <ul class="list-unstyled">
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+                <li><a href="#"><img src="img/avatar.jpg" style="width:60px;height:60px;" alt="..."></a></li>
+              </ul>
+            </div>
+          </div><!-- / .Recent Tweets -->
+
+          <!-- Newsletter -->
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <h4>Newsletter</h4>
+            <p>
+              By subscribing to our mailing list you will get the latest news from us.
+            </p>
+            <form class="form" role="form">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="input-group">
+                    <label class="sr-only" for="subscribe-email">Email address</label>
+                    <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-danger">Subscribe</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <br />
+            <h4>Follow us on</h4>
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+          </div><!-- / .Newsletter -->
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer><!-- / .Footer -->
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/jquery.isotope.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
